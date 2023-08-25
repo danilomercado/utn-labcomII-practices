@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Logearse</a>
+                </li>
+                <li>
+                    <a href="loguin.html">Home</a>
+                </li>
+
+            </ul>
+        </nav>
+    
+    <h1>DATOS PERSONALES</h1>
+    <fieldset>
+    <legend>Datos del usuario:</legend>
+    <input type="text" value="ESTUDIANTE" size="8" readonly><br>
+
+    <label for="nombreCompleto">Nombre Completo: </label>
+    <input type="text" id="nombreCompleto" name="nombreCompleto" > <br>
+
+    <label for="mail">Email: </label>
+    <input type="email" placeholder="nombreapellido@gmail.com" name="email" > <br>
+
+    <label for="edad">Edad: </label>
+    <input type="date" id="edad" name="edad"> <br>
+
+    <label for="nacionalidad">Nacionalidad: </label>
+    <select name="seleccionable" id="seleccionable">
+        <option value="Argentina">Argentina</option>
+        <option value="Peru">Peru</option>
+        <option value="Chile">Chile</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Brasil">Brasil</option>
+    </select> <br>
+
+    <label for="condLabora">Condicion Laboral: </label>
+    <select name="condLaboral" id="condLaboral">
+        <option value="Desempleado">Desempleado</option>
+        <option value="En busqueda Laboral">En Busqueda Laboral</option>
+        <option value="Trabajo Part-Time">Trabajo Part-Time</option>
+        <option value="Trabajo Full Time">Trabajo Full Time</option>
+    </select><br>
+
+    
+</fieldset>
+<br>
+<fieldset>
+    <legend>Gustos Personales</legend>
+    <label for="gustoMusical">Gusto Musical: </label>
+    <input type="texto" id="musica" name="musica"> <br>
+
+    <label for="comidaPref">Comida Preferida: </label>
+    <select name="comidaPref" id="comidaPref">
+        <option value="Hamburgesa">Hamburgesa</option>
+        <option value="pizza">Pizza</option>
+        <option value="Pollo">Pollo</option>
+        <option value="otro">Otro</option>
+    </select> <br>
+</fieldset>
+
+<input type="checkbox" id="checkbox" name="checkbox">
+<label for="checkbox">Recordar datos</label><br>
+<input type="submit" value="Submit" >
+
+</body>
+</html>
