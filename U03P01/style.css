@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(245, 245, 245);
+}
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #242424;
+}
+h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #606060;
+}
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid;
+    max-width: 40%;
+    border-color: blue; 
+    list-style: none;
+}
+ul li {
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+ul li :hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+a{
+    font-weight: bold;
+}
+ul li a{
+    color: orange;
+    text-decoration: underline;
+
+}
+#verde{
+    color: green;
+}
+#verde a{
+    color: green;
+}
