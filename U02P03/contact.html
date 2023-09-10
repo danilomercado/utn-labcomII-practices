@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP3 CSS</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>League of Legends</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / cotenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div>
+          <h2>Formulario</h2>
+          <p>Ingrese sus datos</p>
+        </div>
+        <form>
+          <table>
+            <tr>
+              <th><label for="usuario">Nombre:</label></th>
+              <th>
+                <input type="text" id="nombre" name="nombre" required /><br />
+              </th>
+            </tr>
+            <tr>
+              <th><label for="mail">Email:</label></th>
+              <th>
+                <input type="email" placeholder="aabbcc@gmail.com" required />
+              </th>
+            </tr>
+            <tr>
+              <th><label for="edad">Edad:</label></th>
+              <th><input type="number" /></th>
+            </tr>
+            <tr>
+              <th><label for="colorPref">Color Preferido:</label></th>
+              <th><input type="color" /></th>
+            </tr>
+            <tr>
+              <th><label for="Comentario">Comentario:</label></th>
+              <th><textarea minlength="10"></textarea></th>
+            </tr>
+          </table>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

@@ -4,72 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP3 CSS</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #aaaaaa;
-      }
-      div.container {
-        overflow: auto;
-      }
-      header {
-        background-color: #e5e5e5;
-        padding: 15px;
-        text-align: center;
-      }
-      nav {
-        float: left;
-        width: 20%;
-        text-align: center;
-      }
-      nav ul {
-        padding-left: 0px;
-      }
-      nav li {
-        list-style: none;
-      }
-      nav li a {
-        background-color: #e5e5e5;
-        padding: 8px;
-        margin-top: 7px;
-        display: block;
-        width: 100%;
-        color: black;
-        font-weight: 700;
-      }
-      main {
-        float: left;
-        width: 60%;
-        padding: 0 20px;
-      }
-      .right {
-        background-color: #e5e5e5;
-        float: left;
-        width: 20%;
-        padding: 15px;
-        margin-top: 7px;
-        text-align: center;
-      }
-      footer {
-        background-color: #e5e5e5;
-        text-align: center;
-        padding: 10px;
-        margin-top: 7px;
-      }
-      /* For mobile phones: */
-      @media only screen and (max-width: 620px) {
-        nav,
-        main,
-        .right {
-          width: 100%;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="/LABORATORIO II/PRACTICAS/utn-labcomII-practices/U02P03/img/LoL_icon.svg" type="img/x-icon">
   </head>
   <body>
-    
+    <!-- Encabezado -->
+    <header>
+      <h1>League of Legends</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / cotenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenedor principal -->
+      <main>
+        <section>
+          <h2>ULTIMAS NOTICIAS!</h2>
+          <p>
+           <a href="leagueoflegends.com/es-mx/news/game-updates/notas-de-la-version-13-17/">Notas de la version 13.17</a></li><br>
+           <a href="https://www.leagueoflegends.com/es-mx/event/resumen-de-habilidades-de-naafiri/">Resuemn de habilidades de NAAFIRI</a><br>
+           <a href="https://www.leagueoflegends.com/es-mx/event/resumen-de-habilidades-de-briar/">Resumen de habilidades de BRIAR</a><br>
+          </p>
+        </section>
+        <section class="seccion2">
+          <h2>Mejor del Mundo</h2>
+          <p>Lee Sang-Hyeok, más conocido como Faker, es un jugador profesional surcoreano de League of Legends.
+            Faker es reconocido por su gran dominio de las mecánicas del juego y la amplia versatilidad de estilos y personajes que es capaz de ejecutar correctamente. Es conocido por usar campeones complejos y variados como Galio, Zed, Orianna, Azir, Viktor, 
+            LeBlanc o Ryze, siendo tal vez estos dos últimos los más emblemáticos de su carrera</p>
+        </section>
+      </main>
+      <!-- Contenedor secundario / derecho -->
+      <div class="right">
+        <h2>Info</h2>
+        <p> League of Legends, es un videojuego multijugador de arena de batalla
+          en línea desarrollado y publicado por Riot Games. Inspirándose en
+          Defense of the Ancients, un mapa personalizado para Warcraft III,
+          los fundadores de Riot buscaron desarrollar un juego independiente
+          del mismo género.</p>
+      </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+      <p>© copyright lol.com</p>
+    </footer>
   </body>
 </html>
